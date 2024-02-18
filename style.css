@@ -49,7 +49,7 @@ header{
 .Hero_Section_Title{
     max-width: 632px;
     font-family: "Merriweather", serif;
-    color: white;
+    color: white;1
     font-size: 72px;
     font-weight: 900;
     line-height: 95px;
@@ -315,7 +315,6 @@ margin-bottom: 120px;
 }
 .artical_6_container{
     width: 1320px;
-    border: 1px solid red;
     margin-bottom: 120px;
 }
 .artical_6_subtitle{
@@ -346,4 +345,53 @@ margin-bottom: 120px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 24px;
+}
+.artical_7_container{
+    width: 1320px;
+    height: 616px;
+    border-radius: 16px;
+    background-color: rgba(255, 0, 0, 0.100);
+    margin-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.artical_7_title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 40px;
+    margin-bottom: 22px;
+}
+.artical_7_description{
+    max-width: 896px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 32px;
+    text-align: center;
+}
+.input_area{
+    display: flex;
+    margin-top: 47px;
+    margin-bottom: 80px;
+}
+.input_area input{
+    display: inline;
+    width: 500px;
+    padding: 25px 30px;
+    border: none;
+    border-radius: 50px 0 0 50px;
+    font-size: 18px;
+    font-weight: 400;
+}
+.input_area button{
+    display: inline;
+    padding: 25px 30px;
+    border-radius: 0 50px 50px 0;
+    border: none;
+    background-color: red;
+    font-size: 18px;
+    font-weight: 500;
+    color: white;
 }
