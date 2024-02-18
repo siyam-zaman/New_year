@@ -287,6 +287,7 @@ margin-bottom: 120px;
 }
 .img_and_lable img{
     border-radius: 16px;
+    margin-bottom: 120px;
 }
 .discount_label{
     position: absolute;
@@ -311,4 +312,38 @@ margin-bottom: 120px;
 .discount_label_subtitle{
     font-size: 24px;
     font-weight: 900;
+}
+.artical_6_container{
+    width: 1320px;
+    border: 1px solid red;
+    margin-bottom: 120px;
+}
+.artical_6_subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: normal;
+    color: red;
+    margin-bottom: 16px;
+}
+.artical_6_title{
+    font-family: "Merriweather", serif;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+.artical_6_description{
+    max-width: 893px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 48px;
+}
+.image{
+    width: 424px;
+    height: 450px;
+}
+.image_slot_1{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 24px;
 }
