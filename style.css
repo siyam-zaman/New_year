@@ -152,3 +152,41 @@ main{
     background-color: #383533;
     border: 1px solid transparent;
 }
+.artical_3_container{
+    width: 1320px;
+    height: 482px;
+    border-radius: 16px;
+    /* opacity: 10%; */
+    background-image: linear-gradient(to top,transparent,rgba(255, 0, 0, 0.100));
+    margin: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.artical_3_text_container{
+    text-align: center;
+}
+.artical_3_text_container p{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 56px;
+    text-transform: capitalize;
+}
+.artical_3_text_container span{
+    color: red;
+}
+.artical_3_btn{
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-top: 48px;
+    padding:16px 32px;
+    border-radius: 8px;
+    border: none;
+    background-color: red;
+    color: white;
+}
+.artical_3_btn:hover{
+    background-color: rgb(183, 11, 11);
+}
