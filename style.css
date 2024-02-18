@@ -190,3 +190,61 @@ main{
 .artical_3_btn:hover{
     background-color: rgb(183, 11, 11);
 }
+.artical_4_container{
+width: 1320px;
+height: 463px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.artical_4_text_container_1_caption{
+     font-size: 24px;
+     font-weight: 600;
+     line-height: normal;
+     letter-spacing: 0%;
+     color:red;
+     margin-bottom: 12px;
+}
+.artical_4_text_container_1_title{
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 12px;
+}
+.artical_4_text_container_1_description{
+    max-width: 393px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+    letter-spacing: 0%;
+    color: hsla(260, 79%, 4%, 0.600);
+}
+.artical_4_image_container img{
+    width: 364px;
+    height: 364px;
+    padding: 20px;
+    border: 12px solid red;
+    border-radius: 999px;
+}
+.artical_4_text_container_2_title{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0%;
+    color: red;
+    margin-bottom: 12px;
+}
+.artical_4_text_container_2_description{
+    max-width: 276px;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 120%;
+    letter-spacing: 0%;
+    margin-bottom: 20px;
+}
+.artical_4_text_container_2 img{
+    width: 100px;
+    height: 100px;
+}
