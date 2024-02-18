@@ -3,6 +3,7 @@
 *{
     margin: 0;
     padding: 0;
+    gap: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
     /* font-family: "Merriweather", serif; */
@@ -196,6 +197,7 @@ height: 463px;
 display: flex;
 justify-content: space-between;
 align-items: center;
+margin-bottom: 120px;
 }
 .artical_4_text_container_1_caption{
      font-size: 24px;
@@ -247,4 +249,66 @@ align-items: center;
 .artical_4_text_container_2 img{
     width: 100px;
     height: 100px;
+}
+.artical_5_images_container{
+    position: relative;
+}
+.artical_5_text_container{
+    text-align: center;
+}
+.artical_5_subtitle{
+    font-size: 24px;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 12px;
+}
+.artical_5_title{
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 28px;
+}
+.artical_5_title span{
+    color: red;
+}
+.artical_5_description{
+    max-width: 1080px;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 32px;
+    letter-spacing: 0%;
+    margin-bottom: 64px;
+}
+.img_and_lable{
+    position: relative;
+    margin-left: 300px;
+}
+.img_and_lable img{
+    border-radius: 16px;
+}
+.discount_label{
+    position: absolute;
+    top: 30%;
+    left: -80px;
+    width: 206px;
+    height: 206px;
+    border-radius: 999px;
+    border:5px solid white;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transform: rotate(-34.2deg);
+    color: white;
+}
+.discount_label_title{
+    font-size: 72px;
+    font-weight:700;
+}
+.discount_label_subtitle{
+    font-size: 24px;
+    font-weight: 900;
 }
