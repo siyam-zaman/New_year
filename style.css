@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    /* font-family: "Merriweather", serif; */
+}
+header{
+    margin: 50px 300px 120px 300px;
+    position: relative;
+}
+
+.Img_container{
+    position: relative;
+}
+.Gradient{
+    width: 100%;
+    height: 600px;
+    background-image: linear-gradient(to top,transparent, black);
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 8px;
+}
+.Img_container img{
+    width: 1312px;
+    height: 600px;
+    object-fit: cover;
+}
+.Hero_section_text_container{
+    position: absolute;
+    top: 30%;
+    left: 25%;
+    text-align: center;
+}
+.Hero_Section_Subtitle{
+    font-family: "Merriweather", serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: white;
+    line-height: normal;
+    letter-spacing: 2%;
+    text-transform: capitalize;
+    margin-bottom: 16px;
+}
+.Hero_Section_Title{
+    max-width: 632px;
+    font-family: "Merriweather", serif;
+    color: white;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+    letter-spacing: -2%;
+
+}
+main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Offer_container{
+    text-align: center;
+}
+.Offer_container_title{
+    font-size: 88px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0%;
+    color: red;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.Offer_container_caption{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0%;
+    color: red;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+}
+.Offer_container_subtitle{
+    font-size: 48px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0%;
+    margin-bottom: 48px;
+}
